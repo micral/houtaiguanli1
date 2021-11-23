@@ -1,0 +1,11 @@
+.list-enter-active,
+.list-leave-active
+{
+    transition:all 1s linear 0s;
+    position:absolute
+}
+.list-enter-from,
+.list-leave-to{
+  opacity:0;
+  transform:translateY(30px)
+}
